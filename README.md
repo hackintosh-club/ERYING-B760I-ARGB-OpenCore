@@ -2,7 +2,7 @@
 
 ![image](ScreenShot/ERYINGB760IARBG.jpg)
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.0](https://github.com/acidanthera/OpenCorePkg)
 
 ### macOS
 
@@ -50,8 +50,8 @@ Security
 
 ### 注意事项
 
- - 安装成功后必须使用 [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) 或者 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) 生成你自己的 SMBIOS
- - 此EFI中的英特尔无线网卡驱动[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)仅适用于 MacOS 14 Sonoma,安装其它版本请自行下载替换此驱动
+ - 安装成功后必须使用 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) 生成你自己的 SMBIOS
+ - 此EFI中的英特尔无线网卡驱动[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)仅适用于 MacOS 14.4.1 Sonoma,安装其它版本请自行下载替换此驱动
  - 如需使用带有小核心的CPU，必须勾选配置文件中Kernel--ProvideCurrentCpuinfo选项
 
 
